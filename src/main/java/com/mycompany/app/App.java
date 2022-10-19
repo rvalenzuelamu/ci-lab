@@ -20,7 +20,11 @@ public class App {
     if(a!=b && b!=c && a!=c) {
       return "es un triangulo escaleno";
     }
-    return "error no es un triangulo";
+    
+    if((a*a + b*b) = c*c){
+      return "es un triangulo pitagorico";
+    }
+      return "error no es un triangulo";
   }
 
   public static void main(String[] args) {
