@@ -9,4 +9,4 @@ Cuando hayan completado la tarea agreguen los datos de su grupo en la tabla sigu
 
 | Grupo | Integrantes | URL REPO GITHUB |
 |-------|-------------|-----------------|
-| Profe | Eduardo Díaz | https://github.com/lnds/ci-lab-clase-5.git |
+| 6-CGR | Daniel Jofré, Carlos Vasquez, Claudio Mallea, Cristian Donoso | https://github.com/lnds/ci-lab-clase-5.git |
