@@ -16,6 +16,10 @@ public class App {
     if (a == b || a == c || b == c) {
       return "es un triangulo isoceles";
     }
+    
+    if(a!=b && b!=c && a!=c) {
+      return "es un triangulo escaleno";
+    }
     return "error no es un triangulo";
   }
 
