@@ -21,7 +21,7 @@ public class App {
       return "es un triangulo escaleno";
     }
     
-    if((a*a + b*b) = c*c){
+    if((a*a + b*b) == c*c){
       return "es un triangulo escaleno";
     }
       return "error no es un triangulo";
