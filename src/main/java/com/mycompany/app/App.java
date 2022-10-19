@@ -19,6 +19,7 @@ public class App {
     if(a*a+b*b==c*c||a*a+c*c==b*b||b*b+c*c==a*a){
       return "es un triangulo pitagorico";
     }
+
     return "es un triangulo escaleno";
   }
 
