@@ -10,3 +10,4 @@ Cuando hayan completado la tarea agreguen los datos de su grupo en la tabla sigu
 | Grupo | Integrantes | URL REPO GITHUB |
 |-------|-------------|-----------------|
 | Profe | Eduardo Díaz, Eduardo Diaz | https://github.com/lnds/ci-lab-clase-5.git |
+|   1   | pedro manriquez, rodrigo marquez, andrea calderon, diego torres, diego fuentes | https://github.com/dfuelop/ci-lab |
