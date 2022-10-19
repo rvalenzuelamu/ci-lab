@@ -16,7 +16,7 @@ public class App {
     if (a == b || a == c || b == c) {
       return "es un triangulo isoceles";
     }
-    return "error no es un triangulo";
+    return "es un triangulo escaleno";
   }
 
   public static void main(String[] args) {
