@@ -10,3 +10,4 @@ Cuando hayan completado la tarea agreguen los datos de su grupo en la tabla sigu
 | Grupo | Integrantes | URL REPO GITHUB |
 |-------|-------------|-----------------|
 | Profe | Eduardo Díaz | https://github.com/lnds/ci-lab-clase-5.git |
+| Grupo 5 | Oscar Hidalgo, Manuel Fuentes, Cristian Bustamante, Alejandra Levill| https://github.com/ohidagoo/ci-lab.git | 
