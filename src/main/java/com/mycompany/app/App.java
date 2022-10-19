@@ -22,7 +22,7 @@ public class App {
     }
     
     if((a*a + b*b) == c*c){
-      return "es un triangulo escaleno";
+      return "es un triangulo pitagorico";
     }
       return "error no es un triangulo";
   }
