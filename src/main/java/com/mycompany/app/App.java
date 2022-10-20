@@ -18,14 +18,15 @@ public class App {
     if (a == b || a == c || b == c) {
       return "es un triangulo isoceles";
     }
-    //triangulo escaleno
-    if (a != b || a != c || b != c) {
-      return "es un triangulo escaleno";
-    }
     //triangulo pitagorico
     if ((a*a) + (b * b) == (c *c)) {
       return "es un triangulo pitagorico";
     }
+    //triangulo escaleno
+    if (a != b || a != c || b != c) {
+      return "es un triangulo escaleno";
+    }
+
     return "error no es un triangulo";
   }
 
