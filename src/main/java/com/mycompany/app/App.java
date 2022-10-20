@@ -10,10 +10,6 @@ public class App {
     if (!(a + b > c && a + c > b && b + c > a)) {
       return "error no es un triangulo";
     }
-    //triangulo escaleno
-    if (a != b || a != c || b != c) {
-      return "es un triangulo escaleno";
-    }
     //triangulo equilatero
     if (a == b && a == c && b == c) {
       return "es un triangulo equilatero";
@@ -21,6 +17,10 @@ public class App {
     //triangulo isoceles
     if (a == b || a == c || b == c) {
       return "es un triangulo isoceles";
+    }
+    //triangulo escaleno
+    if (a != b || a != c || b != c) {
+      return "es un triangulo escaleno";
     }
     //triangulo pitagorico
     if ((a*a) + (b * b) == (c *c)) {
