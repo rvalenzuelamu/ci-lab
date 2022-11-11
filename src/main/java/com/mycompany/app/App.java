@@ -24,7 +24,8 @@ public class App {
       return "es un triangulo pitagorico";
     }
     return "error no es un triangulo";
-  }
+  } 
+  
 
   public static void main(String[] args) {
     System.out.println("Hello World!");
