@@ -35,6 +35,11 @@ public class App {
     if (!(a + b > c && a + c > b && b + c > a)) {
       return "error no es un triangulo";
     }
+    
+    if ((a*a) + (b * b) == (c *c)) {
+      return "es un triangulo pitagorico";
+    }
+    
     if (a == b && a == c && b == c) {
       return "es un triangulo equilatero";
     }
@@ -53,6 +58,6 @@ public class App {
   
 
   public static void main(String[] args) {
-    System.out.println("Hello World!");
+    System.out.println("Hola Gente!");
   }
 }
