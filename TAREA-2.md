@@ -10,6 +10,7 @@ Cuando hayan completado la tarea agreguen los datos de su grupo en la tabla sigu
 | Grupo | Integrantes | URL REPO GITHUB |
 |-------|-------------|-----------------|
 | Profe | Eduardo Díaz, Eduardo Diaz | https://github.com/lnds/ci-lab-clase-5.git |
+| Grupo 2 | Jonathan Arrue, Jorge Cordero, Rodolfo Collio, Andrés Pino, Rodrigo Aro| https://github.com/rodrigoaro/ci-lab |
 | Grupo 7 | Byron Pizarro| https://github.com/byronpiz/ci-lab.git |
 | Profe | Eduardo Díaz | https://github.com/lnds/ci-lab-clase-5.git |
 | 6-CGR | Daniel Jofré, Carlos Vasquez, Claudio Mallea, Cristian Donoso | https://github.com/ChiponesIng/ci-lab-cgr |
