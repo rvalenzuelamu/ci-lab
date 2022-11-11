@@ -10,6 +10,7 @@ Cuando hayan completado la tarea agreguen los datos de su grupo en la tabla sigu
 | Grupo | Integrantes | URL REPO GITHUB |
 |-------|-------------|-----------------|
 | Profe | Eduardo Díaz | https://github.com/lnds/ci-lab-clase-5.git |
+| 6-CGR | Daniel Jofré, Carlos Vasquez, Claudio Mallea, Cristian Donoso | https://github.com/lnds/ci-lab-clase-5.git |
 |  4    | Omar Sosa, Jose Luis Pedreros, Erick Flores, Lorenzo Veas, Christian Contardo | https://github.com/ccontardos/ci-lab/ |
 |   1   | pedro manriquez, rodrigo marquez, andrea calderon, diego torres, diego fuentes | https://github.com/dfuelop/ci-lab |
 | Grupo 5 | Oscar Hidalgo, Manuel Fuentes, Cristian Bustamante, Alejandra Levill| https://github.com/ohidagoo/ci-lab.git | 
