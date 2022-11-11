@@ -21,13 +21,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
-  <distributionManagement>
-   <repository>
-     <id>github</id>
-     <name>GitHub OWNER Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/lnds/ci-lab-2022</url>
-   </repository>
+ <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/byronpiz/ci-lab</url>
+    </repository>
   </distributionManagement>
 
   <distributionManagement>
