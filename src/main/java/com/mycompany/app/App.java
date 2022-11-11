@@ -4,7 +4,6 @@ package com.mycompany.app;
  *
  */
 public class App {
-
   private static boolean esTrianguloPitagorico(int a,int b, int c){
    //a2 + b2 = c2
     if (a > b && a > c) {
