@@ -43,6 +43,7 @@ public class App {
     if (a == b && a == c && b == c) {
       return "es un triangulo equilatero";
     }
+    //triangulo isoceles
     if (a == b || a == c || b == c) {
       return "es un triangulo isoceles";
     }

@@ -9,6 +9,7 @@ Cuando hayan completado la tarea agreguen los datos de su grupo en la tabla sigu
 
 | Grupo | Integrantes | URL REPO GITHUB |
 |-------|-------------|-----------------|
+| S/G | Jonathan Inostroza | https://github.com/lnds/ci-lab-clase-5.git |
 | Profe | Eduardo Díaz, Eduardo Diaz | https://github.com/lnds/ci-lab-clase-5.git |
 | Grupo 2 | Jonathan Arrue, Jorge Cordero, Rodolfo Collio, Andrés Pino, Rodrigo Aro| https://github.com/rodrigoaro/ci-lab |
 | Grupo 7 | Byron Pizarro| https://github.com/byronpiz/ci-lab.git |
