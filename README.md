@@ -2,7 +2,7 @@
 laboratorio de integración continua
 
 
-# Parte 1: GitHub Actions Build
+## Parte 1: GitHub Actions Build
 
 - Configura una action importando el plugin Maven, tal como lo mostró el profesor
 - Modifica el archivo `maven-publish.yml` dejándolo así:
@@ -34,12 +34,15 @@ jobs:
       run: mvn -B package --file pom.xml # or verify
 ```
 
+## Parte 2: Corre tests
+
 - Haz un push en tu repo para gatillar el action (modifica un archivo por ejemplo si estás usando GitHub directamente)
 - Luego reemplaza `package` por `verify`
 - Modifica los tests para que fallen y haz un push
 - Modifica los tests para que pasen y haz un push
-- Crea un token clasic en tu configuración personal, asegurate que tenga permisos para write/delete packages. (El token clasic se crea en `Settings/Developer Settings`)
-- Crea los secrets USER y TOKEN en el repo
+
+## Parte 3: publica el package
+
 - Revisa en contenido de settings.xml en la carpeta .m2
 - Modifica el archivo `maven-publish.yml` y déjalo así:
 
@@ -90,3 +93,10 @@ jobs:
 ```
 
 IMPORTANTE: recuerda modificar las referencias a los repos en los archivos maven `pom.xml`.
+
+
+# Nota
+
+Hay un bug en github en que si publicas el mismo nombre de artefacto, aunque esté en otro repo, puede fallar la publicación, si eso te pasa cambia el valor en `<groupId>` en el archivo `pom.xml`.
+Ver https://github.com/orgs/community/discussions/23474
+
