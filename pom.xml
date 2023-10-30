@@ -25,15 +25,8 @@
     <repository>
       <id>lnds</id>
       <name>GitHub OWNER Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/byronpiz/ci-lab</url>
+      <url>https://maven.pkg.github.com/lnds/ci-lab</url>
     </repository>
-  </distributionManagement>
-
-  <distributionManagement>
-   <repository>
-     <id>github</id>
-     <name>GitHub OWNER Apache Maven Packages</name>
-   </repository>
   </distributionManagement>
 
   <distributionManagement>
