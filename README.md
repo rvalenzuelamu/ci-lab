@@ -74,21 +74,12 @@ jobs:
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
     - name: Build with Maven
-      run: mvn -B verify --file pom.xml
-      
-    - name: Create staging directory
-      run: mkdir staging && cp target/*.jar staging
-    
-    - name: Store artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: Package
-        path: staging
+      run: mvn -B package --file pom.xml
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s .m2/settings.xml
+      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
-         GITHUB_TOKEN: ${{ github.token }}
+        GITHUB_TOKEN: ${{ github.token }}
 
 ```
 
