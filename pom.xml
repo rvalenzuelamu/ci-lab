@@ -23,7 +23,7 @@
   </dependencies>
  <distributionManagement>
     <repository>
-      <id>github</id>
+      <id>lnds</id>
       <name>GitHub OWNER Apache Maven Packages</name>
       <url>https://maven.pkg.github.com/byronpiz/ci-lab</url>
     </repository>
