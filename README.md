@@ -33,6 +33,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml # or verify
 ```
+
 - Haz un push en tu repo para gatillar el action (modifica un archivo por ejemplo si estás usando GitHub directamente)
 - Luego reemplaza `package` por `verify`
 - Modifica los tests para que fallen y haz un push
@@ -41,8 +42,9 @@ jobs:
 - Crea los secrets USER y TOKEN en el repo
 - Revisa en contenido de settings.xml en la carpeta .m2
 - Modifica el archivo `maven-publish.yml` y déjalo así:
-```
 
+
+```
 # This workflow will build a package using Maven and then publish it to GitHub packages when a release is created
 # For more information see: https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#apache-maven-with-a-settings-path
 
